@@ -27,7 +27,7 @@ noButton.addEventListener("click", function () {
 });
 
 function handleYesClick() {
-  titleElement.innerHTML = "Ураааа!! :3";
+  titleElement.innerHTML = "Ураааа, Я РАД КОТЕНОК ХЕХЕХЕ!! :3";
   buttonsContainer.classList.add("hidden");
   changeImage("yes");
 }
@@ -42,7 +42,7 @@ function resizeYesButton() {
 
 function generateMessage(noCount) {
   const messages = [
-    "Жок",
+    "Жок па?(",
     "Ты серьезно котен?",
     "Ну позязяз жан ;(",
     "ТЫ ЧЕ РЕАЛЬНО ПРОДАЛА МЕНЯ, НУ ПОЖАЛУЙСТА!",
