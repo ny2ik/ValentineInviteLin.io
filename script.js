@@ -28,8 +28,8 @@ noButton.addEventListener("click", function () {
 
 function handleYesClick() {
   titleElement.innerHTML = "Ураааа!! :3";
-  buttonsContainer.classList.add("Спрятався");
-  changeImage("Да");
+  buttonsContainer.classList.add("hidden");
+  changeImage("yes");
 }
 
 function resizeYesButton() {
